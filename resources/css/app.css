@@ -1,0 +1,319 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-bold: 'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Firefox-specific font fix - most aggressive approach */
+@-moz-document url-prefix() {
+    * {
+        font-family: system-ui, -apple-system, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif !important;
+        font-style: normal !important;
+        font-synthesis: none !important;
+        font-variant: normal !important;
+        font-stretch: normal !important;
+        font-optical-sizing: none !important;
+        font-feature-settings: normal !important;
+        text-transform: none !important;
+    }
+    
+    html, body {
+        font-family: system-ui, -apple-system, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+    }
+    
+    /* Firefox-specific bold styling */
+    h1, h2, h3, h4, h5, h6 {
+        font-family: system-ui, -apple-system, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+        font-synthesis: none !important;
+    }
+    
+    .font-bold, .font-semibold {
+        font-family: system-ui, -apple-system, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif !important;
+        font-weight: 700 !important;
+        font-synthesis: none !important;
+    }
+    
+    .font-medium {
+        font-family: system-ui, -apple-system, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif !important;
+        font-weight: 500 !important;
+        font-synthesis: none !important;
+    }
+    
+    p, div, span, a, button, input, textarea, select, label {
+        font-family: system-ui, -apple-system, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-synthesis: none !important;
+    }
+    
+    /* Tiptap Editor Exceptions for Firefox - Outside layer for maximum priority */
+    .tiptap-content-area strong,
+    .tiptap-content-area b,
+    .tiptap-editor .ProseMirror strong,
+    .tiptap-editor .ProseMirror b {
+        font-weight: 700 !important;
+        font-family: system-ui, -apple-system, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif !important;
+    }
+}
+
+/* Additional Firefox fix using CSS selector */
+@supports (-moz-appearance: none) {
+    * {
+        font-family: system-ui, -apple-system, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif !important;
+        font-style: normal !important;
+        font-synthesis: none !important;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 700 !important;
+    }
+    
+    .font-bold, .font-semibold {
+        font-weight: 700 !important;
+    }
+    
+    .font-medium {
+        font-weight: 500 !important;
+    }
+    
+    /* Tiptap Editor Exceptions */
+    .tiptap-content-area strong,
+    .tiptap-content-area b,
+    .tiptap-editor .ProseMirror strong,
+    .tiptap-editor .ProseMirror b {
+        font-weight: 700 !important;
+    }
+}
+
+@layer base {
+    html, body, * {
+        font-family: 'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-variant: normal !important;
+        text-transform: none !important;
+        -webkit-font-smoothing: antialiased !important;
+        -moz-osx-font-smoothing: grayscale !important;
+        font-feature-settings: normal !important;
+    }
+    
+    /* Default font weights */
+    body, p, div, span, a, button, input, textarea, select {
+        font-style: normal !important;
+        font-weight: 400 !important;
+    }
+    
+    /* Bold variants for headers and important text */
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+    }
+    
+    /* Bold text utility classes */
+    .font-bold, .font-semibold {
+        font-family: 'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif !important;
+        font-weight: 700 !important;
+    }
+    
+    .font-medium {
+        font-family: 'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif !important;
+        font-weight: 500 !important;
+    }
+    
+    /* Tiptap Editor Exceptions - Allow bold and italic in rich text editor */
+    .tiptap-content-area,
+    .tiptap-content-area *,
+    .tiptap-editor .ProseMirror,
+    .tiptap-editor .ProseMirror * {
+        font-family: system-ui, -apple-system, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif !important;
+    }
+    
+    .tiptap-content-area strong,
+    .tiptap-content-area b,
+    .tiptap-editor .ProseMirror strong,
+    .tiptap-editor .ProseMirror b,
+    .tiptap-content-area p strong,
+    .tiptap-content-area p b,
+    .tiptap-editor .ProseMirror p strong,
+    .tiptap-editor .ProseMirror p b,
+    .tiptap-content-area div strong,
+    .tiptap-content-area div b,
+    .tiptap-editor .ProseMirror div strong,
+    .tiptap-editor .ProseMirror div b,
+    .tiptap-content-area span strong,
+    .tiptap-content-area span b,
+    .tiptap-editor .ProseMirror span strong,
+    .tiptap-editor .ProseMirror span b,
+    .tiptap-content-area li strong,
+    .tiptap-content-area li b,
+    .tiptap-editor .ProseMirror li strong,
+    .tiptap-editor .ProseMirror li b {
+        font-weight: 700 !important;
+    }
+    
+    .tiptap-content-area em,
+    .tiptap-content-area i,
+    .tiptap-editor .ProseMirror em,
+    .tiptap-editor .ProseMirror i {
+        font-style: italic !important;
+    }
+    
+    /* Career page HTML content exceptions - Allow bold and italic */
+    .html-content strong,
+    .html-content b,
+    .html-content p strong,
+    .html-content p b,
+    .html-content li strong,
+    .html-content li b,
+    .html-content div strong,
+    .html-content div b,
+    .html-content span strong,
+    .html-content span b,
+    .html-content * strong,
+    .html-content * b {
+        font-weight: 700 !important;
+    }
+    
+    .html-content em,
+    .html-content i,
+    .html-content p em,
+    .html-content p i,
+    .html-content li em,
+    .html-content li i,
+    .html-content * em,
+    .html-content * i {
+        font-style: italic !important;
+    }
+    
+    /* Firefox-specific fixes */
+    @-moz-document url-prefix() {
+        html, body, * {
+            font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif !important;
+            font-style: normal !important;
+            font-weight: 400 !important;
+            font-variant: normal !important;
+            text-transform: none !important;
+            font-feature-settings: normal !important;
+            font-synthesis: none !important;
+            font-display: swap !important;
+            font-stretch: normal !important;
+            font-optical-sizing: none !important;
+        }
+        
+        body, p, div, span, h1, h2, h3, h4, h5, h6, a, button, input, textarea, select {
+            font-style: normal !important;
+            font-weight: 400 !important;
+            font-synthesis: none !important;
+            font-stretch: normal !important;
+        }
+        
+        /* Additional Firefox font rendering fix */
+        * {
+            font-synthesis: none !important;
+            font-variant-ligatures: none !important;
+            font-stretch: normal !important;
+            font-optical-sizing: none !important;
+        }
+        
+        /* Force specific elements */
+        p, div, span, h1, h2, h3, h4, h5, h6 {
+            font-style: normal !important;
+            font-weight: 400 !important;
+            font-synthesis: none !important;
+        }
+        
+        /* Tiptap Editor Exceptions for Firefox */
+        .tiptap-content-area strong,
+        .tiptap-content-area b,
+        .tiptap-editor .ProseMirror strong,
+        .tiptap-editor .ProseMirror b {
+            font-weight: 700 !important;
+        }
+        
+        .tiptap-content-area em,
+        .tiptap-content-area i,
+        .tiptap-editor .ProseMirror em,
+        .tiptap-editor .ProseMirror i {
+            font-style: italic !important;
+        }
+    }
+}
+
+/* CRITICAL: Tiptap Editor Bold Text Override - Outside all layers for maximum priority */
+/* This rule must come after all other rules to ensure it overrides everything */
+.tiptap-content-area strong,
+.tiptap-content-area b,
+.tiptap-editor .ProseMirror strong,
+.tiptap-editor .ProseMirror b,
+.tiptap-content-area p strong,
+.tiptap-content-area p b,
+.tiptap-editor .ProseMirror p strong,
+.tiptap-editor .ProseMirror p b,
+.tiptap-content-area div strong,
+.tiptap-content-area div b,
+.tiptap-editor .ProseMirror div strong,
+.tiptap-editor .ProseMirror div b,
+.tiptap-content-area span strong,
+.tiptap-content-area span b,
+.tiptap-editor .ProseMirror span strong,
+.tiptap-editor .ProseMirror span b,
+.tiptap-content-area li strong,
+.tiptap-content-area li b,
+.tiptap-editor .ProseMirror li strong,
+.tiptap-editor .ProseMirror li b,
+/* Career page HTML content bold text - Must override all global restrictions */
+.html-content strong,
+.html-content b,
+.html-content p strong,
+.html-content p b,
+.html-content div strong,
+.html-content div b,
+.html-content span strong,
+.html-content span b,
+.html-content li strong,
+.html-content li b,
+.html-content ul strong,
+.html-content ul b,
+.html-content ol strong,
+.html-content ol b,
+.html-content h1 strong,
+.html-content h1 b,
+.html-content h2 strong,
+.html-content h2 b,
+.html-content h3 strong,
+.html-content h3 b,
+.html-content * strong,
+.html-content * b {
+    font-weight: 700 !important;
+    font-family: system-ui, -apple-system, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif !important;
+}
+
+.tiptap-content-area em,
+.tiptap-content-area i,
+.tiptap-editor .ProseMirror em,
+.tiptap-editor .ProseMirror i,
+/* Career page HTML content italic text */
+.html-content em,
+.html-content i,
+.html-content p em,
+.html-content p i,
+.html-content li em,
+.html-content li i,
+.html-content * em,
+.html-content * i {
+    font-style: italic !important;
+    font-family: system-ui, -apple-system, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif !important;
+}
+

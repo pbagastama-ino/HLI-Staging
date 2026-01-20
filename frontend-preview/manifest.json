@@ -1,0 +1,776 @@
+{
+  "_AdminLayout-DG98k_k6.js": {
+    "file": "assets/AdminLayout-DG98k_k6.js",
+    "name": "AdminLayout",
+    "imports": [
+      "resources/js/app.js",
+      "_hligp-logo-CGFychJV.js"
+    ]
+  },
+  "_AppLayout-BWA0NJx7.css": {
+    "file": "assets/AppLayout-BWA0NJx7.css",
+    "src": "_AppLayout-BWA0NJx7.css"
+  },
+  "_AppLayout-CmUh12th.js": {
+    "file": "assets/AppLayout-CmUh12th.js",
+    "name": "AppLayout",
+    "imports": [
+      "resources/js/app.js",
+      "_hligp-logo-CGFychJV.js"
+    ],
+    "css": [
+      "assets/AppLayout-BWA0NJx7.css"
+    ],
+    "assets": [
+      "assets/hligp-logo-white-C7NGmwd1.png",
+      "assets/gradient-global-icon-CsT7zTz7.png",
+      "assets/globe-white-C7dK7FiS.png",
+      "assets/linkedin-icon-ty6hlWQU.png",
+      "assets/ig-icon-flsjuioD.png",
+      "assets/image 132-DvR3uKgJ.png",
+      "assets/image 133-A7YGLn4I.png"
+    ]
+  },
+  "_ScrollTrigger-lnFyu4_T.js": {
+    "file": "assets/ScrollTrigger-lnFyu4_T.js",
+    "name": "ScrollTrigger"
+  },
+  "_hligp-logo-CGFychJV.js": {
+    "file": "assets/hligp-logo-CGFychJV.js",
+    "name": "hligp-logo",
+    "assets": [
+      "assets/hligp-logo-BKJG1z64.png"
+    ]
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-DWy3UQRp.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/js/Pages/Admin/CareerApplicationShow.vue": {
+    "file": "assets/CareerApplicationShow-CQuzyMvO.js",
+    "name": "CareerApplicationShow",
+    "src": "resources/js/Pages/Admin/CareerApplicationShow.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_AdminLayout-DG98k_k6.js",
+      "_hligp-logo-CGFychJV.js"
+    ]
+  },
+  "resources/js/Pages/Admin/CareerApplications.vue": {
+    "file": "assets/CareerApplications-3hJm5b5u.js",
+    "name": "CareerApplications",
+    "src": "resources/js/Pages/Admin/CareerApplications.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_AdminLayout-DG98k_k6.js",
+      "_hligp-logo-CGFychJV.js"
+    ]
+  },
+  "resources/js/Pages/Admin/CareerJobForm.vue": {
+    "file": "assets/CareerJobForm-Bv2ENalt.js",
+    "name": "CareerJobForm",
+    "src": "resources/js/Pages/Admin/CareerJobForm.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_AdminLayout-DG98k_k6.js",
+      "_hligp-logo-CGFychJV.js"
+    ]
+  },
+  "resources/js/Pages/Admin/CareerJobShow.vue": {
+    "file": "assets/CareerJobShow-CraD_B9e.js",
+    "name": "CareerJobShow",
+    "src": "resources/js/Pages/Admin/CareerJobShow.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_AdminLayout-DG98k_k6.js",
+      "_hligp-logo-CGFychJV.js"
+    ]
+  },
+  "resources/js/Pages/Admin/CareerJobs.vue": {
+    "file": "assets/CareerJobs-BQeCrdlY.js",
+    "name": "CareerJobs",
+    "src": "resources/js/Pages/Admin/CareerJobs.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_AdminLayout-DG98k_k6.js",
+      "_hligp-logo-CGFychJV.js"
+    ]
+  },
+  "resources/js/Pages/Admin/ChangePassword.vue": {
+    "file": "assets/ChangePassword-CYbEPZ2h.js",
+    "name": "ChangePassword",
+    "src": "resources/js/Pages/Admin/ChangePassword.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_AdminLayout-DG98k_k6.js",
+      "_hligp-logo-CGFychJV.js"
+    ]
+  },
+  "resources/js/Pages/Admin/Dashboard.vue": {
+    "file": "assets/Dashboard-BQsyagEm.js",
+    "name": "Dashboard",
+    "src": "resources/js/Pages/Admin/Dashboard.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_AdminLayout-DG98k_k6.js",
+      "resources/js/app.js",
+      "_hligp-logo-CGFychJV.js"
+    ]
+  },
+  "resources/js/Pages/Admin/DepartmentForm.vue": {
+    "file": "assets/DepartmentForm-CHDdtoee.js",
+    "name": "DepartmentForm",
+    "src": "resources/js/Pages/Admin/DepartmentForm.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_AdminLayout-DG98k_k6.js",
+      "_hligp-logo-CGFychJV.js"
+    ]
+  },
+  "resources/js/Pages/Admin/DepartmentShow.vue": {
+    "file": "assets/DepartmentShow-F3BkUnNQ.js",
+    "name": "DepartmentShow",
+    "src": "resources/js/Pages/Admin/DepartmentShow.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_AdminLayout-DG98k_k6.js",
+      "_hligp-logo-CGFychJV.js"
+    ]
+  },
+  "resources/js/Pages/Admin/Departments.vue": {
+    "file": "assets/Departments-lDXvtZl4.js",
+    "name": "Departments",
+    "src": "resources/js/Pages/Admin/Departments.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_AdminLayout-DG98k_k6.js",
+      "_hligp-logo-CGFychJV.js"
+    ]
+  },
+  "resources/js/Pages/Admin/Login.vue": {
+    "file": "assets/Login-Bi_zq54D.js",
+    "name": "Login",
+    "src": "resources/js/Pages/Admin/Login.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_hligp-logo-CGFychJV.js"
+    ]
+  },
+  "resources/js/Pages/Admin/Profile.vue": {
+    "file": "assets/Profile-BqtfiErS.js",
+    "name": "Profile",
+    "src": "resources/js/Pages/Admin/Profile.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_AdminLayout-DG98k_k6.js",
+      "_hligp-logo-CGFychJV.js"
+    ]
+  },
+  "resources/js/Pages/Admin/PublicationForm.vue": {
+    "file": "assets/PublicationForm-Doif64vj.js",
+    "name": "PublicationForm",
+    "src": "resources/js/Pages/Admin/PublicationForm.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_AdminLayout-DG98k_k6.js",
+      "_hligp-logo-CGFychJV.js"
+    ]
+  },
+  "resources/js/Pages/Admin/PublicationShow.vue": {
+    "file": "assets/PublicationShow-DNT3S4_u.js",
+    "name": "PublicationShow",
+    "src": "resources/js/Pages/Admin/PublicationShow.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_AdminLayout-DG98k_k6.js",
+      "_hligp-logo-CGFychJV.js"
+    ]
+  },
+  "resources/js/Pages/Admin/Publications.vue": {
+    "file": "assets/Publications-DF9x6KZU.js",
+    "name": "Publications",
+    "src": "resources/js/Pages/Admin/Publications.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_AdminLayout-DG98k_k6.js",
+      "_hligp-logo-CGFychJV.js"
+    ]
+  },
+  "resources/js/Pages/Admin/UserForm.vue": {
+    "file": "assets/UserForm-DLLYiZi-.js",
+    "name": "UserForm",
+    "src": "resources/js/Pages/Admin/UserForm.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_AdminLayout-DG98k_k6.js",
+      "_hligp-logo-CGFychJV.js"
+    ]
+  },
+  "resources/js/Pages/Admin/UserShow.vue": {
+    "file": "assets/UserShow-DrFkxmPP.js",
+    "name": "UserShow",
+    "src": "resources/js/Pages/Admin/UserShow.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_AdminLayout-DG98k_k6.js",
+      "_hligp-logo-CGFychJV.js"
+    ]
+  },
+  "resources/js/Pages/Admin/Users.vue": {
+    "file": "assets/Users-CHEdCeQ6.js",
+    "name": "Users",
+    "src": "resources/js/Pages/Admin/Users.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_AdminLayout-DG98k_k6.js",
+      "_hligp-logo-CGFychJV.js"
+    ]
+  },
+  "resources/js/Pages/Admin/Vacancies.vue": {
+    "file": "assets/Vacancies-DZ44WqvY.js",
+    "name": "Vacancies",
+    "src": "resources/js/Pages/Admin/Vacancies.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_AdminLayout-DG98k_k6.js",
+      "_hligp-logo-CGFychJV.js"
+    ]
+  },
+  "resources/js/Pages/Admin/VacancyForm.vue": {
+    "file": "assets/VacancyForm-DOUzGs02.js",
+    "name": "VacancyForm",
+    "src": "resources/js/Pages/Admin/VacancyForm.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_AdminLayout-DG98k_k6.js",
+      "_hligp-logo-CGFychJV.js"
+    ]
+  },
+  "resources/js/Pages/Admin/VacancyShow.vue": {
+    "file": "assets/VacancyShow-C4AkOclV.js",
+    "name": "VacancyShow",
+    "src": "resources/js/Pages/Admin/VacancyShow.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_AdminLayout-DG98k_k6.js",
+      "_hligp-logo-CGFychJV.js"
+    ]
+  },
+  "resources/js/Pages/Career.vue": {
+    "file": "assets/Career-DcdBu3q5.js",
+    "name": "Career",
+    "src": "resources/js/Pages/Career.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_AppLayout-CmUh12th.js",
+      "_hligp-logo-CGFychJV.js"
+    ]
+  },
+  "resources/js/Pages/Company.vue": {
+    "file": "assets/Company-CoIMS_48.js",
+    "name": "Company",
+    "src": "resources/js/Pages/Company.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_AppLayout-CmUh12th.js",
+      "_hligp-logo-CGFychJV.js"
+    ],
+    "css": [
+      "assets/Company-BMV4eC3e.css"
+    ],
+    "assets": [
+      "assets/hli-green-power-factory-PCt44uUG.png",
+      "assets/facility-pipes-and-towers-DBVmJZDl.png",
+      "assets/company-icon-care-CqU5KaPW.png",
+      "assets/company-icon-diversity-Dq2qO1sX.png",
+      "assets/company-icon-integrity-CSXQkOdn.png",
+      "assets/company-icon-one-tzqH5AUh.png",
+      "assets/company-icon-strength-BBcPl1zz.png",
+      "assets/company-icon-cleaner-BPYjvAoE.png",
+      "assets/company-icon-integrity2-BCgxCF-I.png",
+      "assets/leader1-ChwSkeNd.png",
+      "assets/leader2-Cy8TVUUX.png",
+      "assets/carrousel-1-CDseqjeB.png",
+      "assets/carrousel-2-DuTEydsU.png",
+      "assets/carrousel-3-mDReo4nZ.png",
+      "assets/carrousel-4-BWHjhR7Z.png",
+      "assets/carrousel-5-DwCicZXd.png",
+      "assets/carrousel-6-BagLRxpD.png"
+    ]
+  },
+  "resources/js/Pages/Contact.vue": {
+    "file": "assets/Contact-DORJBoHe.js",
+    "name": "Contact",
+    "src": "resources/js/Pages/Contact.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_AppLayout-CmUh12th.js",
+      "_hligp-logo-CGFychJV.js"
+    ],
+    "assets": [
+      "assets/icon-address-DbGg5Wlb.png",
+      "assets/icon-email-DcD5yU5E.png",
+      "assets/peta-contact-C9C3U9_s.png"
+    ]
+  },
+  "resources/js/Pages/Factory.vue": {
+    "file": "assets/Factory-CTZ7B4tW.js",
+    "name": "Factory",
+    "src": "resources/js/Pages/Factory.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ScrollTrigger-lnFyu4_T.js",
+      "_AppLayout-CmUh12th.js",
+      "resources/js/app.js",
+      "_hligp-logo-CGFychJV.js"
+    ],
+    "assets": [
+      "assets/atm-facility-C03aunxi.png",
+      "assets/audit-facility-CkAX-on4.png",
+      "assets/bus-facility-lf_vo-3l.png",
+      "assets/cafe-facility-Dc76cqEb.png",
+      "assets/clinic-facility-BWhSAJuo.png",
+      "assets/gym-facility-Dwf-VwNd.png",
+      "assets/lounge-facility-Cq1yCZ4a.png",
+      "assets/lecture-facility-DvGNgVSK.png",
+      "assets/townhall-facility-SPzsiuXQ.png",
+      "assets/hli-hardware-a7LQvghS.png",
+      "assets/factory-manufacturing-process-CM1138uL.png"
+    ]
+  },
+  "resources/js/Pages/Form.vue": {
+    "file": "assets/Form-B5cR16vg.js",
+    "name": "Form",
+    "src": "resources/js/Pages/Form.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_AppLayout-CmUh12th.js",
+      "_hligp-logo-CGFychJV.js"
+    ],
+    "css": [
+      "assets/Form-mexCBp-g.css"
+    ]
+  },
+  "resources/js/Pages/Home.vue": {
+    "file": "assets/Home-D6IDU1zt.js",
+    "name": "Home",
+    "src": "resources/js/Pages/Home.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_ScrollTrigger-lnFyu4_T.js",
+      "_AppLayout-CmUh12th.js",
+      "_hligp-logo-CGFychJV.js"
+    ],
+    "css": [
+      "assets/Home-aihzkQhO.css"
+    ],
+    "assets": [
+      "assets/hli-homebanner-BVHmZAlW.png",
+      "assets/mesin-homebanner-B8cw-RX0.png",
+      "assets/response-manufacturing-CIx9kBOI.png",
+      "assets/practical-innovation-Cn4Jx3vr.png",
+      "assets/building-local-DNwtE4yE.png",
+      "assets/article-1-BJJ2ZdnI.png",
+      "assets/article-2-Buxll-ez.png",
+      "assets/article-3-vKAe2f4E.png"
+    ]
+  },
+  "resources/js/Pages/Policy.vue": {
+    "file": "assets/Policy-Csg-EfkW.js",
+    "name": "Policy",
+    "src": "resources/js/Pages/Policy.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_AppLayout-CmUh12th.js",
+      "resources/js/app.js",
+      "_hligp-logo-CGFychJV.js"
+    ]
+  },
+  "resources/js/Pages/Publication.vue": {
+    "file": "assets/Publication-DIIAYEwG.js",
+    "name": "Publication",
+    "src": "resources/js/Pages/Publication.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_AppLayout-CmUh12th.js",
+      "_hligp-logo-CGFychJV.js"
+    ]
+  },
+  "resources/js/Pages/Success.vue": {
+    "file": "assets/Success-RDZ6Uxn-.js",
+    "name": "Success",
+    "src": "resources/js/Pages/Success.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/Pages/Sustainability.vue": {
+    "file": "assets/Sustainability-CgPyGTsU.js",
+    "name": "Sustainability",
+    "src": "resources/js/Pages/Sustainability.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_AppLayout-CmUh12th.js",
+      "resources/js/app.js",
+      "_hligp-logo-CGFychJV.js"
+    ],
+    "assets": [
+      "assets/sustainability-1-DU2PGwse.png",
+      "assets/sustainability-2-D5kPowLP.png",
+      "assets/sustainability-3-xgkR3Eya.png",
+      "assets/sustainability-4-C5RTZI9c.png",
+      "assets/sustainability-5-Dn3XSM8Q.png",
+      "assets/sustainability-6-D9q_vJwY.png",
+      "assets/sustainability-7-HKRBrSHz.png",
+      "assets/sustainability-8-Dl2xLFoD.png",
+      "assets/sustainability-10-YChNvt8I.png",
+      "assets/sustainability-11-CAS0mfFL.png",
+      "assets/sustainability-12-vp8-i6gS.png",
+      "assets/sustainability-13-wg9vyTTY.png",
+      "assets/sustainability-14-dyyV06Pl.png",
+      "assets/sustainability-15-BYDmOY1t.png",
+      "assets/sustainability-16-BLOHUbME.png",
+      "assets/sustainability-17-UiR4XWs4.png",
+      "assets/sustainability-18-BKEChzno.png",
+      "assets/sustainability-19-Cz21kQHH.png",
+      "assets/sustainability-20-B0e5VDM8.png"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-D_i4R_mt.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/Admin/CareerApplicationShow.vue",
+      "resources/js/Pages/Admin/CareerApplications.vue",
+      "resources/js/Pages/Admin/CareerJobForm.vue",
+      "resources/js/Pages/Admin/CareerJobShow.vue",
+      "resources/js/Pages/Admin/CareerJobs.vue",
+      "resources/js/Pages/Admin/ChangePassword.vue",
+      "resources/js/Pages/Admin/Dashboard.vue",
+      "resources/js/Pages/Admin/DepartmentForm.vue",
+      "resources/js/Pages/Admin/DepartmentShow.vue",
+      "resources/js/Pages/Admin/Departments.vue",
+      "resources/js/Pages/Admin/Login.vue",
+      "resources/js/Pages/Admin/Profile.vue",
+      "resources/js/Pages/Admin/PublicationForm.vue",
+      "resources/js/Pages/Admin/PublicationShow.vue",
+      "resources/js/Pages/Admin/Publications.vue",
+      "resources/js/Pages/Admin/UserForm.vue",
+      "resources/js/Pages/Admin/UserShow.vue",
+      "resources/js/Pages/Admin/Users.vue",
+      "resources/js/Pages/Admin/Vacancies.vue",
+      "resources/js/Pages/Admin/VacancyForm.vue",
+      "resources/js/Pages/Admin/VacancyShow.vue",
+      "resources/js/Pages/Career.vue",
+      "resources/js/Pages/Company.vue",
+      "resources/js/Pages/Contact.vue",
+      "resources/js/Pages/Factory.vue",
+      "resources/js/Pages/Form.vue",
+      "resources/js/Pages/Home.vue",
+      "resources/js/Pages/Policy.vue",
+      "resources/js/Pages/Publication.vue",
+      "resources/js/Pages/Success.vue",
+      "resources/js/Pages/Sustainability.vue"
+    ],
+    "css": [
+      "assets/app-DigOUWDA.css"
+    ]
+  },
+  "resources/js/assets/article-1.png": {
+    "file": "assets/article-1-BJJ2ZdnI.png",
+    "src": "resources/js/assets/article-1.png"
+  },
+  "resources/js/assets/article-2.png": {
+    "file": "assets/article-2-Buxll-ez.png",
+    "src": "resources/js/assets/article-2.png"
+  },
+  "resources/js/assets/article-3.png": {
+    "file": "assets/article-3-vKAe2f4E.png",
+    "src": "resources/js/assets/article-3.png"
+  },
+  "resources/js/assets/atm-facility.png": {
+    "file": "assets/atm-facility-C03aunxi.png",
+    "src": "resources/js/assets/atm-facility.png"
+  },
+  "resources/js/assets/audit-facility.png": {
+    "file": "assets/audit-facility-CkAX-on4.png",
+    "src": "resources/js/assets/audit-facility.png"
+  },
+  "resources/js/assets/building-local.png": {
+    "file": "assets/building-local-DNwtE4yE.png",
+    "src": "resources/js/assets/building-local.png"
+  },
+  "resources/js/assets/bus-facility.png": {
+    "file": "assets/bus-facility-lf_vo-3l.png",
+    "src": "resources/js/assets/bus-facility.png"
+  },
+  "resources/js/assets/cafe-facility.png": {
+    "file": "assets/cafe-facility-Dc76cqEb.png",
+    "src": "resources/js/assets/cafe-facility.png"
+  },
+  "resources/js/assets/carrousel-1.png": {
+    "file": "assets/carrousel-1-CDseqjeB.png",
+    "src": "resources/js/assets/carrousel-1.png"
+  },
+  "resources/js/assets/carrousel-2.png": {
+    "file": "assets/carrousel-2-DuTEydsU.png",
+    "src": "resources/js/assets/carrousel-2.png"
+  },
+  "resources/js/assets/carrousel-3.png": {
+    "file": "assets/carrousel-3-mDReo4nZ.png",
+    "src": "resources/js/assets/carrousel-3.png"
+  },
+  "resources/js/assets/carrousel-4.png": {
+    "file": "assets/carrousel-4-BWHjhR7Z.png",
+    "src": "resources/js/assets/carrousel-4.png"
+  },
+  "resources/js/assets/carrousel-5.png": {
+    "file": "assets/carrousel-5-DwCicZXd.png",
+    "src": "resources/js/assets/carrousel-5.png"
+  },
+  "resources/js/assets/carrousel-6.png": {
+    "file": "assets/carrousel-6-BagLRxpD.png",
+    "src": "resources/js/assets/carrousel-6.png"
+  },
+  "resources/js/assets/clinic-facility.png": {
+    "file": "assets/clinic-facility-BWhSAJuo.png",
+    "src": "resources/js/assets/clinic-facility.png"
+  },
+  "resources/js/assets/company-icon-care.png": {
+    "file": "assets/company-icon-care-CqU5KaPW.png",
+    "src": "resources/js/assets/company-icon-care.png"
+  },
+  "resources/js/assets/company-icon-cleaner.png": {
+    "file": "assets/company-icon-cleaner-BPYjvAoE.png",
+    "src": "resources/js/assets/company-icon-cleaner.png"
+  },
+  "resources/js/assets/company-icon-diversity.png": {
+    "file": "assets/company-icon-diversity-Dq2qO1sX.png",
+    "src": "resources/js/assets/company-icon-diversity.png"
+  },
+  "resources/js/assets/company-icon-integrity.png": {
+    "file": "assets/company-icon-integrity-CSXQkOdn.png",
+    "src": "resources/js/assets/company-icon-integrity.png"
+  },
+  "resources/js/assets/company-icon-integrity2.png": {
+    "file": "assets/company-icon-integrity2-BCgxCF-I.png",
+    "src": "resources/js/assets/company-icon-integrity2.png"
+  },
+  "resources/js/assets/company-icon-one.png": {
+    "file": "assets/company-icon-one-tzqH5AUh.png",
+    "src": "resources/js/assets/company-icon-one.png"
+  },
+  "resources/js/assets/company-icon-strength.png": {
+    "file": "assets/company-icon-strength-BBcPl1zz.png",
+    "src": "resources/js/assets/company-icon-strength.png"
+  },
+  "resources/js/assets/facility-pipes-and-towers.png": {
+    "file": "assets/facility-pipes-and-towers-DBVmJZDl.png",
+    "src": "resources/js/assets/facility-pipes-and-towers.png"
+  },
+  "resources/js/assets/factory-manufacturing-process.png": {
+    "file": "assets/factory-manufacturing-process-CM1138uL.png",
+    "src": "resources/js/assets/factory-manufacturing-process.png"
+  },
+  "resources/js/assets/globe-white.png": {
+    "file": "assets/globe-white-C7dK7FiS.png",
+    "src": "resources/js/assets/globe-white.png"
+  },
+  "resources/js/assets/gradient-global-icon.png": {
+    "file": "assets/gradient-global-icon-CsT7zTz7.png",
+    "src": "resources/js/assets/gradient-global-icon.png"
+  },
+  "resources/js/assets/gym-facility.png": {
+    "file": "assets/gym-facility-Dwf-VwNd.png",
+    "src": "resources/js/assets/gym-facility.png"
+  },
+  "resources/js/assets/hli-green-power-factory.png": {
+    "file": "assets/hli-green-power-factory-PCt44uUG.png",
+    "src": "resources/js/assets/hli-green-power-factory.png"
+  },
+  "resources/js/assets/hli-hardware.png": {
+    "file": "assets/hli-hardware-a7LQvghS.png",
+    "src": "resources/js/assets/hli-hardware.png"
+  },
+  "resources/js/assets/hli-homebanner.png": {
+    "file": "assets/hli-homebanner-BVHmZAlW.png",
+    "src": "resources/js/assets/hli-homebanner.png"
+  },
+  "resources/js/assets/hligp-logo-white.png": {
+    "file": "assets/hligp-logo-white-C7NGmwd1.png",
+    "src": "resources/js/assets/hligp-logo-white.png"
+  },
+  "resources/js/assets/hligp-logo.png": {
+    "file": "assets/hligp-logo-BKJG1z64.png",
+    "src": "resources/js/assets/hligp-logo.png"
+  },
+  "resources/js/assets/icon-address.png": {
+    "file": "assets/icon-address-DbGg5Wlb.png",
+    "src": "resources/js/assets/icon-address.png"
+  },
+  "resources/js/assets/icon-email.png": {
+    "file": "assets/icon-email-DcD5yU5E.png",
+    "src": "resources/js/assets/icon-email.png"
+  },
+  "resources/js/assets/ig-icon.png": {
+    "file": "assets/ig-icon-flsjuioD.png",
+    "src": "resources/js/assets/ig-icon.png"
+  },
+  "resources/js/assets/image 132.png": {
+    "file": "assets/image 132-DvR3uKgJ.png",
+    "src": "resources/js/assets/image 132.png"
+  },
+  "resources/js/assets/image 133.png": {
+    "file": "assets/image 133-A7YGLn4I.png",
+    "src": "resources/js/assets/image 133.png"
+  },
+  "resources/js/assets/leader1.png": {
+    "file": "assets/leader1-ChwSkeNd.png",
+    "src": "resources/js/assets/leader1.png"
+  },
+  "resources/js/assets/leader2.png": {
+    "file": "assets/leader2-Cy8TVUUX.png",
+    "src": "resources/js/assets/leader2.png"
+  },
+  "resources/js/assets/lecture-facility.png": {
+    "file": "assets/lecture-facility-DvGNgVSK.png",
+    "src": "resources/js/assets/lecture-facility.png"
+  },
+  "resources/js/assets/linkedin-icon.png": {
+    "file": "assets/linkedin-icon-ty6hlWQU.png",
+    "src": "resources/js/assets/linkedin-icon.png"
+  },
+  "resources/js/assets/lounge-facility.png": {
+    "file": "assets/lounge-facility-Cq1yCZ4a.png",
+    "src": "resources/js/assets/lounge-facility.png"
+  },
+  "resources/js/assets/mesin-homebanner.png": {
+    "file": "assets/mesin-homebanner-B8cw-RX0.png",
+    "src": "resources/js/assets/mesin-homebanner.png"
+  },
+  "resources/js/assets/peta-contact.png": {
+    "file": "assets/peta-contact-C9C3U9_s.png",
+    "src": "resources/js/assets/peta-contact.png"
+  },
+  "resources/js/assets/practical-innovation.png": {
+    "file": "assets/practical-innovation-Cn4Jx3vr.png",
+    "src": "resources/js/assets/practical-innovation.png"
+  },
+  "resources/js/assets/response-manufacturing.png": {
+    "file": "assets/response-manufacturing-CIx9kBOI.png",
+    "src": "resources/js/assets/response-manufacturing.png"
+  },
+  "resources/js/assets/sustainability-1.png": {
+    "file": "assets/sustainability-1-DU2PGwse.png",
+    "src": "resources/js/assets/sustainability-1.png"
+  },
+  "resources/js/assets/sustainability-10.png": {
+    "file": "assets/sustainability-10-YChNvt8I.png",
+    "src": "resources/js/assets/sustainability-10.png"
+  },
+  "resources/js/assets/sustainability-11.png": {
+    "file": "assets/sustainability-11-CAS0mfFL.png",
+    "src": "resources/js/assets/sustainability-11.png"
+  },
+  "resources/js/assets/sustainability-12.png": {
+    "file": "assets/sustainability-12-vp8-i6gS.png",
+    "src": "resources/js/assets/sustainability-12.png"
+  },
+  "resources/js/assets/sustainability-13.png": {
+    "file": "assets/sustainability-13-wg9vyTTY.png",
+    "src": "resources/js/assets/sustainability-13.png"
+  },
+  "resources/js/assets/sustainability-14.png": {
+    "file": "assets/sustainability-14-dyyV06Pl.png",
+    "src": "resources/js/assets/sustainability-14.png"
+  },
+  "resources/js/assets/sustainability-15.png": {
+    "file": "assets/sustainability-15-BYDmOY1t.png",
+    "src": "resources/js/assets/sustainability-15.png"
+  },
+  "resources/js/assets/sustainability-16.png": {
+    "file": "assets/sustainability-16-BLOHUbME.png",
+    "src": "resources/js/assets/sustainability-16.png"
+  },
+  "resources/js/assets/sustainability-17.png": {
+    "file": "assets/sustainability-17-UiR4XWs4.png",
+    "src": "resources/js/assets/sustainability-17.png"
+  },
+  "resources/js/assets/sustainability-18.png": {
+    "file": "assets/sustainability-18-BKEChzno.png",
+    "src": "resources/js/assets/sustainability-18.png"
+  },
+  "resources/js/assets/sustainability-19.png": {
+    "file": "assets/sustainability-19-Cz21kQHH.png",
+    "src": "resources/js/assets/sustainability-19.png"
+  },
+  "resources/js/assets/sustainability-2.png": {
+    "file": "assets/sustainability-2-D5kPowLP.png",
+    "src": "resources/js/assets/sustainability-2.png"
+  },
+  "resources/js/assets/sustainability-20.png": {
+    "file": "assets/sustainability-20-B0e5VDM8.png",
+    "src": "resources/js/assets/sustainability-20.png"
+  },
+  "resources/js/assets/sustainability-3.png": {
+    "file": "assets/sustainability-3-xgkR3Eya.png",
+    "src": "resources/js/assets/sustainability-3.png"
+  },
+  "resources/js/assets/sustainability-4.png": {
+    "file": "assets/sustainability-4-C5RTZI9c.png",
+    "src": "resources/js/assets/sustainability-4.png"
+  },
+  "resources/js/assets/sustainability-5.png": {
+    "file": "assets/sustainability-5-Dn3XSM8Q.png",
+    "src": "resources/js/assets/sustainability-5.png"
+  },
+  "resources/js/assets/sustainability-6.png": {
+    "file": "assets/sustainability-6-D9q_vJwY.png",
+    "src": "resources/js/assets/sustainability-6.png"
+  },
+  "resources/js/assets/sustainability-7.png": {
+    "file": "assets/sustainability-7-HKRBrSHz.png",
+    "src": "resources/js/assets/sustainability-7.png"
+  },
+  "resources/js/assets/sustainability-8.png": {
+    "file": "assets/sustainability-8-Dl2xLFoD.png",
+    "src": "resources/js/assets/sustainability-8.png"
+  },
+  "resources/js/assets/townhall-facility.png": {
+    "file": "assets/townhall-facility-SPzsiuXQ.png",
+    "src": "resources/js/assets/townhall-facility.png"
+  }
+}
